@@ -1,0 +1,15 @@
+def person_info(first_name, second_name, date_of_birth, city, email, phone):
+    return f'{second_name} {first_name}\n'\
+        f'дата рождения:{date_of_birth}\n'\
+f'город:{city}\n'\
+f'почта:{email}\n'\
+f'телефон: {phone}\n'\
+
+print(person_info(
+    first_name=input('ввидите имя:'),
+    second_name=input('ввидите фамилию:'),
+    date_of_birth=input('ввидите дату рождения:'),
+    city=input('ввидите город:'),
+    email=input('ввидите почту:'),
+    phone=input('ввидите телефон:')
+))
